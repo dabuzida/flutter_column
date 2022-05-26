@@ -39,27 +39,32 @@ class AAA extends StatelessWidget {
       ),
       // width: double.infinity,
       // height: double.infinity,
-      child: Column(
-        // mainAxisAlignment: MainAxisAlignment.start,
-        // crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Container(
-            decoration: BoxDecoration(
-              border: Border.all(color: Colors.amber, width: 2),
+      child: Container(
+        decoration: BoxDecoration(
+          border: Border.all(color: Colors.red[900]!, width: 20),
+        ),
+        child: Column(
+          // mainAxisAlignment: MainAxisAlignment.start,
+          // crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.amber, width: 2),
+              ),
+              child: Text('data'),
             ),
-            child: Text('data'),
-          ),
-          Text('data'),
-          Text('data'),
-          Text('data'),
-          Text('data'),
-          // Row(
-          //   children: [
-          //     Container(width: 50, height: 50, color: Colors.teal),
-          //   ],
-          // )
-        ],
+            Text('data'),
+            Text('data'),
+            Text('data'),
+            Text('data'),
+            // Row(
+            //   children: [
+            //     Container(width: 50, height: 50, color: Colors.teal),
+            //   ],
+            // )
+          ],
+        ),
       ),
     );
   }
